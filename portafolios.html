@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio de Ronald Félix</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      text-align: center; 
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2em;
+      color: #ccc;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .card {
+      background-color: #1e1e2f;
+      border-radius: 15px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+      padding: 25px;
+      max-width: 400px;
+      flex: 1 1 300px;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    .card h2 {
+      color: #00d9ff;
+      margin-bottom: 10px;
+    }
+
+    .user-card {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .user-card img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid #00d9ff;
+    }
+
+    .user-card div {
+      flex: 1;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .social-icons {
+      margin-top: 10px;
+    }
+
+    .social-icons a {
+      margin: 0 10px;
+      color: #00d9ff;
+      font-size: 24px;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: white;
+    }
+
+    @media screen and (max-width: 600px) {
+      header h1 {
+        font-size: 1.8em;
+      }
+
+      .card {
+        padding: 15px;
+      }
+    }
+  </style>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <h1>Ronald Félix Mieses</h1>
+    <p>Programador Junior | Emprendedor | Estudiante de Fullstack y Finanzas</p>
+  </header>
+
+  <section class="container">
+    <div class="card user-card">
+      <img src="https://imgur.com/y06yYcL" alt="Mi Foto" width="300">
+      <div>
+        <h2>Sobre mí</h2>
+        <p>Soy un joven apasionado por la tecnología, con ganas de aprender y crecer en el mundo del desarrollo web.
+          Estoy en formación fullstack y manejo conceptos de frontend, backend, bases de datos y lógica de programación.
+          También emprendo en el mundo digital con ideas creativas y visión de negocio.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Habilidades</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Git y GitHub</li>
+        <li>Diseño responsivo</li>
+        <li>Backend básico (Node.js, MySQL)</li>
+        <li>Uso de herramientas como Flowgorithm y Microsoft Dynamics</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Proyectos</h2>
+      <p>pensando pensamientos</p>
+    </div>
+
+    <div class="card">
+      <h2>Servicios o Intereses</h2>
+      <p>Estoy abierto a trabajar en proyectos freelance, colaborar con startups o seguir aprendiendo en entornos
+        reales. También estoy desarrollando un negocio de streaming y soy parte de Amway.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Conectemos en redes:</p>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/nothingelse.ricky/" target="_blank"><i class="fa-brands fa-instagram"></i>
+        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    </div>
+    <p style="margin-top:10px; font-size: 0.9em; color: #ccc;">Diseñado con pasión por Ronald</p>
+  </footer>
+
+</body>
+
+</html>
